@@ -3,6 +3,8 @@ import pandas as pd
 import numpy as np
 from sklearn.metrics import r2_score
 
+#Downloading data
+#wget -nv -O china_gdp.csv https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/china_gdp.csv
 df = pd.read_csv("china_gdp.csv")
 # print(df.head(10))
 

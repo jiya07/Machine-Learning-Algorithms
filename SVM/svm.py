@@ -8,7 +8,8 @@ import matplotlib.pyplot as plt
 from sklearn import svm
 from sklearn.metrics import f1_score
 
-#Loading data
+#Downloading data
+#wget -O cell_samples.csv https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/cell_samples.csv
 df = pd.read_csv("cell_samples.csv")
 print(df.dtypes)
 

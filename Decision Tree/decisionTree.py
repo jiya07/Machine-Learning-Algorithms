@@ -6,6 +6,8 @@ from sklearn import metrics
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
  
+#Downloading data
+#wget -O drug200.csv https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/drug200.csv
 df=pd.read_csv('drug200.csv')
 print(df.head())
 print(df.size)

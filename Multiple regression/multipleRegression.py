@@ -5,6 +5,8 @@ import numpy as np
 from sklearn import linear_model
 from sklearn.metrics import r2_score
 
+#Downloading data
+#wget -O FuelConsumption.csv https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/FuelConsumptionCo2.csv
 df = pd.read_csv("./FuelConsumption.csv")
 cdf = df[['ENGINESIZE','CYLINDERS','FUELCONSUMPTION_CITY','FUELCONSUMPTION_HWY','FUELCONSUMPTION_COMB','CO2EMISSIONS']]
 print(cdf.head(9))
